@@ -69,17 +69,3 @@ a{
     text-decoration: none;
     color: white;
 }
-
-@media screen and (max-width: 600px) {
-    body {
-    font-size: 14px;
-    }
-  
-main {
-    max-width: 100%; /* Alteração para ocupar 100% da largura da tela em telas menores */
-    }
-
-.botao {
-    font-size: 16px;
-    }
-}
