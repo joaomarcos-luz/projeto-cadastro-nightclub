@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro-Casa-Noturna.</title>
+    <link rel="shortcut icon" href="imagem/th.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Eclipse Lounge 🌚</h1>
+    </header>
+    <main>
+        <section>
+            <p class="txt">Cadastrar Cliente.</p>
+            <form action="#" method="get">
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome do Cliente:">
+                </p>
+                <p>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf" placeholder="123456789-01:">
+                </p>
+                <p>
+                    <label for="nacimento">Nascimento:</label>
+                    <input type="date" name="data" id="nascimento" placeholder="Data de Nacimento:"> 
+                </p>
+                <p class="txt">Cadastrar Entrada.</p>
+                <p>
+                    <label for="hora">Horário:</label>
+                    <input type="time" name="hora" id="hora" placeholder="Horário de Entrada:">
+                    <label for="entrada">Data:</label>
+                    <input type="date" name="entrada" id="entrada">
+                </p><br>
+                <p>
+                    <input type="button" value="Cadastrar 🌠" class="botao" onclick="verificarCadastrar()">
+                </p><br>
+            </form>
+        </section>
+        <section id="resp">
+                <h3>Clique no Botão acima para Cadastrar.</h3>
+        </section>
+    </main>
+    <footer >
+        <a href="https://github.com/joaomarcos-luz" target="_blank">
+            GitHub: ➡️ João Marcos. 🌌
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
