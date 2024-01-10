@@ -12,6 +12,7 @@ body{
 
 header{
     background-color: rgba(182, 36, 182, 0.607);
+    width: 100%vw;
     font-family: 'Lemon', serif;
     padding-top: 5px;
     padding-bottom: 10px;
