@@ -13,10 +13,10 @@ body{
 header{
     background-color: rgba(182, 36, 182, 0.607);
     font-family: 'Lemon', serif;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
     font-size: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 40px;
 }
 
 main{
@@ -60,9 +60,9 @@ footer{
     background-color: rgba(182, 36, 182, 0.607);
     font-family: 'Lemon', serif;
     font-weight: bold;
-    height: 40px;
+    height: 30px;
     padding-top: 20px;
-    margin-top: 170px;
+    margin-top: 30px;
 }
 
 a{
